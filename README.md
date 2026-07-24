@@ -1,4 +1,4 @@
-# Projeto 1 — Curso Udemy Claude Code
+# projeto-claudecode
 
 Projeto de estudos do curso de Claude Code, construído com Next.js 16 (App Router).
 
