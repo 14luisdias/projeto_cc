@@ -35,6 +35,8 @@
 - ALWAYS run `npm run type-check && npm run lint` após uma série de mudanças
 - Rodar um teste por vez, não o suite completo: `npm run test -- NomeDoArquivo`
 - Branch naming: `feat/`, `fix/`, `chore/` + descrição em kebab-case
+
+## Git Commits
 - Commits em inglês, imperativo: "add OAuth callback handler"
 - NUNCA rode `git commit` diretamente neste repositório — SEMPRE acione a skill `commit` (`.claude/skills/commit/`) antes de commitar, mesmo que o pedido pareça simples ou trivial.
   - **Pedido explícito** — aciona a skill: "commita pra mim", "faz um commit", "commita as mudanças", ou qualquer variação que mencione commit/git diretamente.
