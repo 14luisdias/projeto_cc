@@ -29,6 +29,9 @@ yarn-error.log*
 # vercel
 .vercel
 
+# artefatos de sessões de debug via MCP (chrome-devtools/playwright)
+.playwright-mcp/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
