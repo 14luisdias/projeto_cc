@@ -36,6 +36,9 @@
 - Rodar um teste por vez, não o suite completo: `npm run test -- NomeDoArquivo`
 - Branch naming: `feat/`, `fix/`, `chore/` + descrição em kebab-case
 - Commits em inglês, imperativo: "add OAuth callback handler"
+- NUNCA rode `git commit` diretamente neste repositório — SEMPRE acione a skill `commit` (`.claude/skills/commit/`) antes de commitar, mesmo que o pedido pareça simples ou trivial.
+  - **Pedido explícito** — aciona a skill: "commita pra mim", "faz um commit", "commita as mudanças", ou qualquer variação que mencione commit/git diretamente.
+  - **Pedido implícito** — também aciona a skill: "salva", "finaliza a feature", "pode subir", ou qualquer frase que indique intenção de persistir/concluir o trabalho no git, mesmo sem citar a palavra "commit".
 
 ## Common Gotchas
 - `revalidatePath()` e `revalidateTag()` só funcionam em Server Actions/Route Handlers
